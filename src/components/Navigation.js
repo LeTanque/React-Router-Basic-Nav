@@ -6,16 +6,13 @@ const Navigation = () => {
     <React.Fragment>
       <div className="App">
         <h1>React Router Mini</h1>
-        <div>
-          <Link to='/'>Home</Link>
-        </div>
-        <div>
-          <Link to='/about'>About</Link>
-        </div>
-        <div>
-          <Link to='/contact'>Contact</Link>
-        </div>
+        <nav className='d-flex'>
+          <Link to='/' className='Nav-link'>Home</Link>
+          <Link to='/about' className='Nav-link'>About</Link>
+          <Link to='/contact' className='Nav-link'>Contact</Link>
+        </nav>
       </div>
+      <hr></hr>
     </React.Fragment>
   );
 };

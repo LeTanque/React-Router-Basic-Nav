@@ -6,9 +6,9 @@ body {
 .App {
   text-align: center;
 }
-.Nav-link {
-  padding: 2rem;
+.App nav {
+  justify-content: space-evenly;
 }
-.nav-item {
-  margin-top: 1rem;
+.App nav .Nav-link {
+  padding: 10px 0;
 }
